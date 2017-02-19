@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Icow Apps</string>
+
+    <string name="title_activity_login">Login Activity</string>
+
+    <string name="label_email_edittext">Email or Username</string>
+    <string name="label_password_edittext">Password</string>
+    <string name="label_submit_button">Submit</string>
+    <string name="label_register_button">Sign up</string>
+    <string name="label_forgot_password">Forgot your password? Click here</string>
+    <string name="label_sign_facebook_button">Login using Facebook</string>
+    <string name="label_sign_google_button">Login usgin Google</string>
+
+    <string name="error_field_required">Field Required</string>
+
+</resources>

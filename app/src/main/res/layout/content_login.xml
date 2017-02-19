@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.icow.main.login.view.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/label_email_edittext"
+        android:id="@+id/emailEditText"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/label_password_edittext"
+        android:id="@+id/passwordEditText"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:text="@string/label_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/submitButton"
+        />
+
+    <Button
+        android:text="@string/label_register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitButton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/registerButton"
+        />
+
+    <Button
+        android:text="@string/label_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerButton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/forgotPasswordButton"
+        />
+
+    <Button
+        android:text="@string/label_sign_facebook_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotPasswordButton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/loginFacebookButton"
+        />
+
+    <Button
+        android:text="@string/label_sign_google_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginFacebookButton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/loginGoogleButton"
+        />
+
+</RelativeLayout>
